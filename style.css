@@ -1,0 +1,64 @@
+
+body{
+	
+	background-image: url(photos/vc2.jpg);
+	max-width: 800px;
+  	margin: auto;
+}
+#top{
+	opacity: 0.5;
+	display: inline-block;
+	text-align: center;
+	border: 5px solid darkgrey;
+	height: auto;
+	width: 900px;
+	position: fixed;
+	align-content: center;
+	background-color:grey;
+	}
+h1{
+	color: white;
+	text-align: center;
+	font-family: simplicity;
+	font-size: 60pt;
+}
+h2{
+	font-family: verdana;
+	color: white;
+}
+#container{
+	display: inline-block;
+	align-content: center;
+	border: none;
+	height: 800px;
+	width: 700px;
+	padding: 10px 5px 10px 5px;
+	position: relative;
+	margin: 25px;
+}
+img{
+	display: block;
+	height: auto;
+	width: 800px;
+	margin: 25px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}
+img:hover {
+  opacity: 0.2;
+  filter: alpha(opacity=100);
+}
+
+#footer ul li{
+	align-content: center;
+	list-style: none;
+	font-size: 10pt;
+	margin: 5px;
+	padding: 5px;
+	display: inline-grid;
+	background-color: black;
+	border: none;
+	color: white;
+}
